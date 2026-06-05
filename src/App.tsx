@@ -5,7 +5,7 @@ import Logo from './components/Logo';
 import Tagline from './components/Tagline';
 import Waitlist from './components/Waitlist';
 import CornerMark from './components/CornerMark';
-import DownloadButton from './components/DownloadButton';
+// import DownloadButton from './components/DownloadButton';
 import DecorativeOverlays from './components/DecorativeOverlays';
 import CursorTrail from './components/CursorTrail';
 
@@ -88,7 +88,7 @@ function App() {
       />
 
       <div className="downloadSection">
-        <DownloadButton
+        {/* <DownloadButton
           label="Save Logo SVG"
           onClick={handleDownloadSVG}
           isPrimary
@@ -98,7 +98,7 @@ function App() {
           label="Save Page PDF"
           onClick={handlePrintPage}
           ariaLabel="Print or save page as PDF"
-        />
+        /> */}
       </div>
 
       <CursorTrail isEnabled={true} />
