@@ -1,0 +1,104 @@
+/* Corner Marks and Decorative Elements */
+.corner {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: var(--z-decorative);
+  pointer-events: none;
+}
+
+.cornerInner {
+  position: absolute;
+  background: var(--acid);
+}
+
+.cornerVertical {
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cornerHorizontal {
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+}
+
+.cornerTl {
+  top: var(--spacing-xl);
+  left: var(--spacing-xl);
+}
+
+.cornerTr {
+  top: var(--spacing-xl);
+  right: var(--spacing-xl);
+}
+
+.cornerBl {
+  bottom: var(--spacing-xl);
+  left: var(--spacing-xl);
+}
+
+.cornerBr {
+  bottom: var(--spacing-xl);
+  right: var(--spacing-xl);
+}
+
+.cornerTlV {
+  top: 0;
+  left: 0;
+}
+
+.cornerTlH {
+  top: 0;
+  left: 0;
+}
+
+.cornerTrV {
+  top: 0;
+  right: 0;
+}
+
+.cornerTrH {
+  top: 0;
+  right: 0;
+}
+
+.cornerBlV {
+  bottom: 0;
+  left: 0;
+}
+
+.cornerBlH {
+  bottom: 0;
+  left: 0;
+}
+
+.cornerBrV {
+  bottom: 0;
+  right: 0;
+}
+
+.cornerBrH {
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .corner {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cornerTl,
+  .cornerTr,
+  .cornerBl,
+  .cornerBr {
+    top: var(--spacing-lg);
+    bottom: var(--spacing-lg);
+    left: var(--spacing-lg);
+    right: var(--spacing-lg);
+  }
+}

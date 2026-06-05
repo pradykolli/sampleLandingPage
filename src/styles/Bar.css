@@ -1,0 +1,75 @@
+/* Top and Bottom Bar Styles */
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: var(--spacing-lg) var(--spacing-xxxl);
+  display: flex;
+  justify-content: space-between;
+  z-index: var(--z-decorative);
+  border-bottom: 1px solid #0e0e0e;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--spacing-lg) var(--spacing-xxxl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: var(--z-decorative);
+  border-top: 1px solid #111;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.barItem {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-sm);
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.barItemRight {
+  color: var(--dark-gray);
+}
+
+@media (max-width: 768px) {
+  .topBar,
+  .bottomBar {
+    padding: var(--spacing-lg) var(--spacing-lg);
+    font-size: var(--font-size-xs);
+  }
+
+  .barItem {
+    font-size: var(--font-size-xs);
+    letter-spacing: var(--letter-spacing-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .topBar {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+    align-items: flex-start;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+  }
+
+  .barItem {
+    font-size: var(--font-size-xs);
+  }
+}

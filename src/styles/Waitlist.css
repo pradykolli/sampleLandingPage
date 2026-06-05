@@ -1,0 +1,124 @@
+/* Email Capture & Waitlist Styles */
+.waitlist {
+  margin-top: var(--spacing-page);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  animation: fadeIn 1s 0.8s both;
+  width: 100%;
+  padding: 0 var(--spacing-xl);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.waitlistLabel {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-md);
+  text-transform: uppercase;
+  color: var(--medium-gray);
+}
+
+.waitlistRow {
+  display: flex;
+  gap: 0;
+  border: 1px solid #222;
+  overflow: hidden;
+  transition: border-color var(--transition-normal);
+  width: 100%;
+}
+
+.waitlistRow:focus-within {
+  border-color: var(--acid);
+}
+
+.waitlistInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-base);
+  letter-spacing: var(--letter-spacing-xs);
+  color: var(--white);
+  width: 1;
+  flex-grow: 1;
+  transition: background-color var(--transition-normal);
+}
+
+.waitlistInput::placeholder {
+  color: var(--dim);
+  letter-spacing: var(--letter-spacing-xs);
+}
+
+.waitlistInput:focus {
+  background-color: rgba(200, 255, 0, 0.02);
+}
+
+.waitlistBtn {
+  background: var(--acid);
+  border: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-sm);
+  text-transform: uppercase;
+  color: var(--black);
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity var(--transition-fast);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.waitlistBtn:hover {
+  opacity: 0.85;
+}
+
+.waitlistBtn:active {
+  opacity: 0.7;
+}
+
+.waitlistNote {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-xs);
+  color: var(--medium-gray);
+  text-transform: uppercase;
+}
+
+.successMsg {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-base);
+  letter-spacing: var(--letter-spacing-sm);
+  color: var(--acid);
+  text-transform: uppercase;
+  text-align: center;
+  padding: var(--spacing-md) 0;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.errorMessage {
+  color: var(--red);
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-xs);
+  margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 480px) {
+  .waitlist {
+    margin-top: var(--spacing-xl);
+    padding: 0 var(--spacing-md);
+  }
+
+  .waitlistInput,
+  .waitlistBtn {
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .waitlistBtn {
+    font-size: var(--font-size-xs);
+  }
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1780643437169" clover="3.2.0">
+  <project timestamp="1780643437169" name="All files">
+    <metrics statements="74" coveredstatements="56" conditionals="37" coveredconditionals="31" methods="24" coveredmethods="18" elements="135" coveredelements="105" complexity="0" loc="74" ncloc="74" packages="2" files="8" classes="8"/>
+    <package name="components">
+      <metrics statements="73" coveredstatements="56" conditionals="37" coveredconditionals="31" methods="24" coveredmethods="18"/>
+      <file name="Bar.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/Bar.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+      </file>
+      <file name="CornerMark.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/CornerMark.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="14" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="24" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+      <file name="CursorTrail.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/CursorTrail.tsx">
+        <metrics statements="17" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+      <file name="DownloadButton.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/DownloadButton.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="Logo.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/Logo.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+      </file>
+      <file name="Tagline.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/Tagline.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+      <file name="Waitlist.tsx" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/components/Waitlist.tsx">
+        <metrics statements="24" coveredstatements="24" conditionals="17" coveredconditionals="17" methods="7" coveredmethods="7"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="29" count="90" type="stmt"/>
+        <line num="35" count="90" type="stmt"/>
+        <line num="36" count="75" type="stmt"/>
+        <line num="37" count="75" type="stmt"/>
+        <line num="40" count="90" type="stmt"/>
+        <line num="41" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="49" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="68" count="90" type="stmt"/>
+        <line num="69" count="76" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="90" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="theme.ts" path="/Users/pradykolli/Documents/GitHub/sampleLandingPage/src/styles/theme.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

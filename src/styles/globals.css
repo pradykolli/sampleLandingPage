@@ -1,0 +1,104 @@
+/* Global CSS Variables and Base Styles */
+:root {
+  /* Colors */
+  --black: #060606;
+  --white: #f0ede8;
+  --acid: #c8ff00;
+  --dim: #333;
+  --dark-gray: #1e1e1e;
+  --medium-gray: #2a2a2a;
+  --light-gray: #444;
+  --red: #ff2200;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 14px;
+  --spacing-lg: 18px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 28px;
+  --spacing-xxxl: 40px;
+  --spacing-page: 52px;
+
+  /* Typography */
+  --font-mono: 'Courier New', 'Courier', monospace;
+  --font-size-xs: clamp(8px, 0.9vw, 9px);
+  --font-size-sm: clamp(9px, 1.4vw, 13px);
+  --font-size-base: clamp(10px, 1.2vw, 12px);
+  --font-size-md: clamp(12px, 1.5vw, 14px);
+  --font-size-lg: clamp(14px, 2vw, 16px);
+  --font-size-xl: clamp(16px, 3vw, 24px);
+
+  /* Letter Spacing */
+  --letter-spacing-xs: 2px;
+  --letter-spacing-sm: 3px;
+  --letter-spacing-md: 4px;
+  --letter-spacing-lg: 6px;
+
+  /* Transitions */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+  --transition-slow: 0.6s;
+
+  /* Z-Index */
+  --z-base: 1;
+  --z-content: 5;
+  --z-ui: 9;
+  --z-overlay: 10;
+  --z-decorative: 20;
+  --z-dropdown: 30;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-mono);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive utility */
+@media (max-width: 480px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--acid);
+  color: var(--black);
+}
+
+::-moz-selection {
+  background-color: var(--acid);
+  color: var(--black);
+}
