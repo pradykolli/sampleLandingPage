@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
-  cursor: crosshair;
+  cursor: url('/cursor.svg') 16 16, crosshair;
   position: relative;
 }
 

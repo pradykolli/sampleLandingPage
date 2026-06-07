@@ -20,7 +20,7 @@ const validateEmail = (email: string): boolean => {
 
 const Waitlist: React.FC<WaitlistProps> = ({
   onSubmit,
-  label = 'Drop 001 — Be First',
+  label = 'Drop 001 — 2035 Be First',
   placeholder = 'your@email.com',
   buttonText = 'Notify Me',
   successMessage = "You're in. Watch for DROP 001 — 2035.",

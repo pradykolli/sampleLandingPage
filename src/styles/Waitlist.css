@@ -8,17 +8,17 @@
   animation: fadeIn 1s 0.8s both;
   width: 100%;
   padding: 0 var(--spacing-xl);
-  max-width: 400px;
+  max-width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .waitlistLabel {
   font-family: var(--font-mono);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   letter-spacing: var(--letter-spacing-md);
   text-transform: uppercase;
-  color: var(--medium-gray);
+  color: var(--acid);
 }
 
 .waitlistRow {
@@ -83,9 +83,9 @@
 
 .waitlistNote {
   font-family: var(--font-mono);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   letter-spacing: var(--letter-spacing-xs);
-  color: var(--medium-gray);
+  color: var(--light-gray);
   text-transform: uppercase;
 }
 

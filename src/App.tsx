@@ -72,7 +72,7 @@ function App() {
         />
         <Waitlist
           onSubmit={handleWaitlistSubmit}
-          label="Drop 001 — Be First"
+          label="Drop 001 — 2035 Be First"
           placeholder="your@email.com"
           buttonText="Notify Me"
           successMessage="You're in. Watch for DROP 001 — 2035."
@@ -82,8 +82,8 @@ function App() {
 
       <BottomBar
         items={[
-          '© 2025 Fucha Inc. All Rights Reserved.',
-          'wearfucha.ca',
+          '© 2026 Fucha Inc. All Rights Reserved.',
+          'thefucha.ca',
         ]}
       />
 

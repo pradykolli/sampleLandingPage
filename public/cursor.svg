@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20">
+  <!-- FUCHA # Hash Cursor in Acid Green -->
+  <!-- Vertical bars -->
+  <rect x="8" y="2" width="3" height="28" fill="#C8FF00"/>
+  <rect x="18" y="2" width="3" height="28" fill="#C8FF00"/>
+  <!-- Horizontal bars -->
+  <rect x="3" y="11" width="18" height="3" fill="#C8FF00"/>
+  <rect x="3" y="18" width="18" height="3" fill="#C8FF00"/>
+  <!-- Cursor hotspot indicator (optional subtle dot) -->
+  <circle cx="16" cy="16" r="1" fill="#C8FF00" opacity="0.5"/>
+</svg>

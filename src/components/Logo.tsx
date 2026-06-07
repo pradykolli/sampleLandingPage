@@ -13,7 +13,7 @@ const Logo: React.FC<LogoProps> = ({ ariaLabel = 'FUC#A Logo' }) => {
     <div className="logoWrap">
       <svg
         className="logoSvg"
-        viewBox="0 0 640 160"
+        viewBox="0 0 450 160"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-label={ariaLabel}
@@ -58,13 +58,13 @@ const Logo: React.FC<LogoProps> = ({ ariaLabel = 'FUC#A Logo' }) => {
         <rect x="376" y="92" width="48" height="12" fill="#f0ede8" />
 
         {/* Subtle acid underline accent */}
-        <rect x="0" y="158" width="640" height="2" fill="#C8FF00" opacity="0.15" />
+        <rect x="0" y="158" width="450" height="2" fill="#C8FF00" opacity="0.15" />
       </svg>
 
       {/* Glitch layers */}
       <svg
         className="logoSvg glitchLayer"
-        viewBox="0 0 640 160"
+        viewBox="0 0 450 160"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
         style={{ position: 'absolute', top: 0, left: 0 }}
@@ -91,7 +91,7 @@ const Logo: React.FC<LogoProps> = ({ ariaLabel = 'FUC#A Logo' }) => {
 
       <svg
         className="logoSvg glitchLayer glitchLayer2"
-        viewBox="0 0 640 160"
+        viewBox="0 0 450 160"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
         style={{ position: 'absolute', top: 0, left: 0 }}
